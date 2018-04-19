@@ -1,0 +1,24 @@
+Sepal.Length ,  setosa  vs.  versicolor 
+4.49609113678061e-16 
+Sepal.Length ,  versicolor  vs.  virginica 
+2.2393732648524e-06 
+Sepal.Length ,  virginica  vs.  setosa 
+4.76024072518274e-24 
+Sepal.Width ,  setosa  vs.  versicolor 
+2.98107347489711e-14 
+Sepal.Width ,  versicolor  vs.  virginica 
+0.0218338017852591 
+Sepal.Width ,  virginica  vs.  setosa 
+5.48492570875334e-08 
+Petal.Length ,  setosa  vs.  versicolor 
+1.19213195491052e-44 
+Petal.Length ,  versicolor  vs.  virginica 
+5.88034503287792e-21 
+Petal.Length ,  virginica  vs.  setosa 
+1.11235531024147e-48 
+Petal.Width ,  setosa  vs.  versicolor 
+3.26040933916198e-46 
+Petal.Width ,  versicolor  vs.  virginica 
+2.53384128118647e-24 
+Petal.Width ,  virginica  vs.  setosa 
+2.92456328055622e-47 
