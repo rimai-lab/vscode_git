@@ -37,9 +37,9 @@ resid.x <- x - fitted(cl)
 #
 ## random starts do help here with too many clusters
 ## (and are often recommended anyway!):
-(cl <- kmeans(x, 5, nstart = 25))
-plot(x, col = cl$cluster, xlim = lm, ylim = lm)
-points(cl$centers, col = 1:5, pch = 8)
-
-fitted.x <- fitted(cl); # head(fitted.x)
-plot(fitted.x, col = cl$cluster, xlim = lm, ylim = lm)
+#(cl <- kmeans(x, 5, nstart = 25))
+#plot(x, col = cl$cluster, xlim = lm, ylim = lm)
+#points(cl$centers, col = 1:5, pch = 8)
+#
+#fitted.x <- fitted(cl); # head(fitted.x)
+#plot(fitted.x, col = cl$cluster, xlim = lm, ylim = lm)
