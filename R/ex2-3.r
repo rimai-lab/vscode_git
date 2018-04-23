@@ -1,6 +1,6 @@
 species <- unique(iris[,5])
 
-dev.new()
+pdf("ex2-3.pdf")
 par(mfrow = c(2, 2))
 yls = list(c(4, 10), c(2, 6.5), c(1, 9), c(0, 4.2))
 linepos =
@@ -32,4 +32,4 @@ for (j in 1:4) {
     }
 }
 
-
+dev.off()

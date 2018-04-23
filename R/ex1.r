@@ -1,3 +1,4 @@
+pdf("ex1.pdf")
 outMatrix <- matrix(data = co2, ncol = 12, byrow = T, dimnames = list(1959:1997))
 
 mtrName <- rownames(outMatrix)
@@ -35,3 +36,4 @@ axis(side = 4)
 legend("topleft", legend = c("Max.", "Ave.", "Min."), col = cols, pch = pchs, lty = ltys)
 
 legend("topright", legend = "s.d.", col = cols[4], pch = pchs[4], lty = ltys[4])
+dev.off()

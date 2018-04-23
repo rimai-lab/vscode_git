@@ -1,6 +1,6 @@
 species <- unique(iris[,5])
 
-dev.new()
+pdf("ex2-1.pdf")
 par(mfcol = c(3, 4))
 
 xls <- list(c(3, 9), c(1, 6), c(0, 8), c(-1, 4))
@@ -11,3 +11,4 @@ for (j in 1:4) {
             xlab = colnames(iris)[1], main = species[i])
     }  
 }
+dev.off()
