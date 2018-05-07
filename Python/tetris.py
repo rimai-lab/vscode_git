@@ -52,6 +52,7 @@ def rotate(pattern):
         newpat.append(pattern[:, i][::-1])
     
     return np.array(newpat)
+   
 
 
 class Tetris:
@@ -80,7 +81,15 @@ class Tetris:
             # do nothing
             pass
 
-        # collision detection
+        if collisionBottomWall(self.by + 1, self.field, self.pattern) == 0 and collisionBottomBlock(self.bx, self.by + 1, self.field, self.pattern) == 0:
+            self.by += 1
+        else:
+            # overwrite
+            for i in range(3):
+                for j in range(3):
+                    if pattern[i][j] != 0:
+                        field[x + i][y + j] = Status.Fix
+
 
     def reset(self):
         
